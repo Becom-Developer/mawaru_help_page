@@ -1,0 +1,10 @@
+tajima
+cssを使用しているので基本的にhtmlとcssを用いる（？）
+
+/help
+横のピクセル数が820以下の時表示がスマホ用仕様になる
+    pc版だと上に配置されているnav.Header_navigation__tSRAvは,スマホ版だと右上にスクロールに関わらず常に表示されるメニューボタンbutton#menu-botton.MenuButton_menu-button__wxXReが出現
+
+
+→<sectoin class="help_categoryListSection__PSAqD"カテゴリーから探す"の5つのボタンは”div.help_categoyList__bjGvo”pc版だと横3縦2の配列だがスマホ版だと横1縦5の構成となる
+クリックすると/help/category/"各カテゴリーに対応した名前"のページに移動する
