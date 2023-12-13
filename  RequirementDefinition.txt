@@ -8,3 +8,13 @@ cssを使用しているので基本的にhtmlとcssを用いる（？）
 
 →<sectoin class="help_categoryListSection__PSAqD"カテゴリーから探す"の5つのボタンは”div.help_categoyList__bjGvo”pc版だと横3縦2の配列だがスマホ版だと横1縦5の構成となる
 クリックすると/help/category/"各カテゴリーに対応した名前"のページに移動する
+
+metaタグとても重要
+    主に検索エンジンやブラウザで参照される値
+
+
+charset             文字コード
+title               タブの名前
+
+name="description"  検索時にタイトルの下に小さめで表示される文章
+name="viewpoint"    画面の表示領域
