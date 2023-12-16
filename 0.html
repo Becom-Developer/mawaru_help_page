@@ -3,18 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <title>page_0</title>
-
+    <style>
+        #parent {
+          width: 500px;
+          height: 500px;
+          background-color:rgb(255, 255, 255);
+          display: flex;
+          justify-content: flex-end;
+          border: 2px solid rgb(0, 0, 0);
+        }
+    
+        #child1 {
+          width: 25%;
+          background-color:rgb(209, 118, 118);
+          
+        }
+        #child2 {
+          width:25%;
+          background-color:darkmagenta;
+        }
+        #child3 {
+          width:20%;
+          background-color:gold;
+        }
+      </style>
 </head>
 <body>
     <div id="__next">
         <!--縁取りに使用(?)-->
         <div class="layout">
             <header class="Header_headerbody">
-                <p>ヘッダー</p>
-                <p></p>
-
+                <span style="text-align:left">ヘッダー</span>
+                <span style="text-align:center">ヘッダー</span>
+                <p style="text-align:center">中央寄せ</p>
+                <p style="text-align:center">中央寄せ</p>
+                <div style="text-align:center">中央寄せ</div>
+                <div style="text-align:center">中央寄せ</div>
             </header>
-
+            <div id="parent">
+                <div style="text-align:center" id="child1">子要素</div>
+                <div id="child2">子要素</div>
+                <div id="child3">子要素</div>
+                <div id="child1">子要素</div>
+              </div>
+            
 
         </div>
 
@@ -23,3 +55,4 @@
 
 
 </body>
+</html>
