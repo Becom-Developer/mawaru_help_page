@@ -1,0 +1,11 @@
+#__next{
+    font-size: 20px;    /* 文字サイズ指定 */
+    color: #2196F3;     /* 文字色指定 */
+}
+
+.sample01{
+    font-size: 99px;
+}
+.sample02{
+    font-size: 200px;
+}
