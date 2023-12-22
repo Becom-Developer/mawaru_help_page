@@ -72,7 +72,7 @@ html{
     {
         display: block;
     }
-    .menu_button{
+    #menu_button{
         display: none;
     }
 }
